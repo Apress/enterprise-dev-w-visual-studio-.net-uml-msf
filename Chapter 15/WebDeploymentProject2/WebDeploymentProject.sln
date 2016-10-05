@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebDeploymentProject", "http://localhost/WebDeploymentProject2/WebDeploymentProject.vbproj", "{E429164D-2FEC-4E25-9944-4B205A94D142}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WebDevelopmentProjectWS", "http://localhost/WebDevelopmentProjectWS/WebDevelopmentProjectWS.vbproj", "{334F7C7F-5E8C-4906-A85A-5C2937E087B8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WebDeployment", "WebDeployment\WebDeployment.vdproj", "{2C1A1F57-D0CE-45CD-8CE0-F801816BEC24}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "WSDeployment", "WSDeployment\WSDeployment.vdproj", "{986C40B9-4B08-460A-963E-8ACE1307653D}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{E429164D-2FEC-4E25-9944-4B205A94D142}.Debug.ActiveCfg = Debug|.NET
+		{E429164D-2FEC-4E25-9944-4B205A94D142}.Debug.Build.0 = Debug|.NET
+		{E429164D-2FEC-4E25-9944-4B205A94D142}.Release.ActiveCfg = Release|.NET
+		{E429164D-2FEC-4E25-9944-4B205A94D142}.Release.Build.0 = Release|.NET
+		{334F7C7F-5E8C-4906-A85A-5C2937E087B8}.Debug.ActiveCfg = Debug|.NET
+		{334F7C7F-5E8C-4906-A85A-5C2937E087B8}.Debug.Build.0 = Debug|.NET
+		{334F7C7F-5E8C-4906-A85A-5C2937E087B8}.Release.ActiveCfg = Release|.NET
+		{334F7C7F-5E8C-4906-A85A-5C2937E087B8}.Release.Build.0 = Release|.NET
+		{2C1A1F57-D0CE-45CD-8CE0-F801816BEC24}.Debug.ActiveCfg = Debug
+		{2C1A1F57-D0CE-45CD-8CE0-F801816BEC24}.Release.ActiveCfg = Release
+		{986C40B9-4B08-460A-963E-8ACE1307653D}.Debug.ActiveCfg = Debug
+		{986C40B9-4B08-460A-963E-8ACE1307653D}.Release.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

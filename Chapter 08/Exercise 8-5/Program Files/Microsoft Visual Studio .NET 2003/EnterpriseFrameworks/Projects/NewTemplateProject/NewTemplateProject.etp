@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<EFPROJECT>
+    <GENERAL>
+        <BANNER>Microsoft Visual Studio Application Template File</BANNER>
+        <VERSION>1.00</VERSION>
+        <Views>
+            <ProjectExplorer>
+                <File>BusinessFacade\BusinessFacade.vbproj</File>
+            </ProjectExplorer>
+        </Views>
+        <References>
+            <Reference>
+                <FILE>BusinessFacade\BusinessFacade.vbproj</FILE>
+                <GUIDPROJECTID>{EB764D21-FC2E-429A-B2D3-74DD122E758E}</GUIDPROJECTID>
+            </Reference>
+        </References>
+    </GENERAL>
+</EFPROJECT>

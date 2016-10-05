@@ -1,0 +1,8 @@
+VSWIZARD 7.1
+Wizard=VSWizard.VsWizardEngine.7.1
+Param="WIZARD_UI = FALSE"
+Param="WIZARD_NAME = NewWebService"
+Param="PROJECT_TYPE = ETPROJ"
+Param="SCRIPT_COMMON_PROJECT_TYPE = VBPROJ"
+Param="EFT_PROTOTYPE = NewWebService.vbproj"
+

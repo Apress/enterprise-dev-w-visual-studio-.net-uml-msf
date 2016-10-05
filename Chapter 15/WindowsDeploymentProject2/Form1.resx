@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 1.3
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">1.3</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1">this is my long string</data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        [base64 mime encoded serialized .NET Framework object]
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        [base64 mime encoded string representing a byte array form of the .NET Framework object]
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used forserialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>1.3</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="clickMeButton.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="clickMeButton.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="clickMeButton.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="clickMeButton.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="clickMeButton.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="clickMeButton.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="clickMeButton.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="clickMeButton.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="clickMeButton.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="clickMeButton.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Standard</value>
+  </data>
+  <data name="clickMeButton.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="clickMeButton.Image" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="clickMeButton.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="clickMeButton.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="clickMeButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="clickMeButton.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>138, 232</value>
+  </data>
+  <data name="clickMeButton.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="clickMeButton.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>75, 23</value>
+  </data>
+  <data name="clickMeButton.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>0</value>
+  </data>
+  <data name="clickMeButton.Text">
+    <value>Click Me</value>
+  </data>
+  <data name="clickMeButton.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="clickMeButton.ToolTip">
+    <value>Dare click me? Be warned of the less than pretty picture of the author...&lt;g&gt;</value>
+  </data>
+  <data name="clickMeButton.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;clickMeButton.Name">
+    <value>clickMeButton</value>
+  </data>
+  <data name="&gt;&gt;clickMeButton.Type">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clickMeButton.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;clickMeButton.ZOrder">
+    <value>4</value>
+  </data>
+  <data name="staticPicture.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="staticPicture.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="staticPicture.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="staticPicture.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="staticPicture.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="staticPicture.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="staticPicture.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="staticPicture.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="staticPicture.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="staticPicture.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="staticPicture.Image" type="System.Drawing.Bitmap, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        /9j/4AAQSkZJRgABAQEAeAB4AAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwg
+        JC4nICIsIxwcKDcpLDAxNDQ0Hyc5PTgyPC4zNDL/2wBDAQkJCQwLDBgNDRgyIRwhMjIyMjIyMjIyMjIy
+        MjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjL/wAARCACMAGoDASIAAhEBAxEB/8QA
+        HwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIh
+        MUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVW
+        V1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXG
+        x8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQF
+        BgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAV
+        YnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOE
+        hYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq
+        8vP09fb3+Pn6/9oADAMBAAIRAxEAPwDzfxb4t8Q2vi7Vre31m9ihjupFREnYBQGOABmqdt4k8S3Nu0v/
+        AAlU8e0Mdkl2yscelUvGn/I7a3/1+S/+hGsEEgggnNUB2X9t+JskHxgwPUf6axzR/bviMS7P+ExcLyN3
+        2t8cAf4/oa42jJ9aLAdlPrniS3Qu3jCR1zj93du2ayz408T5/wCQ/qH/AH/b/GsGigDe/wCE08T/APQf
+        1H/v+3+NH/CaeJ/+g/qP/f8Ab/GsGigDoofGHieRwBruon/tu3+Nej6Lq+qQ+H5rqbUry4uGXKJI7Eqe
+        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
+</value>
+  </data>
+  <data name="staticPicture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="staticPicture.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>12, 10</value>
+  </data>
+  <data name="staticPicture.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="staticPicture.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>106, 140</value>
+  </data>
+  <data name="staticPicture.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>AutoSize</value>
+  </data>
+  <data name="staticPicture.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>1</value>
+  </data>
+  <data name="staticPicture.Text">
+    <value />
+  </data>
+  <data name="staticPicture.ToolTip">
+    <value />
+  </data>
+  <data name="staticPicture.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;staticPicture.Name">
+    <value>staticPicture</value>
+  </data>
+  <data name="&gt;&gt;staticPicture.Type">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;staticPicture.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;staticPicture.ZOrder">
+    <value>3</value>
+  </data>
+  <data name="dynamicPicture.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="dynamicPicture.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="dynamicPicture.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="dynamicPicture.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="dynamicPicture.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="dynamicPicture.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="dynamicPicture.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="dynamicPicture.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="dynamicPicture.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="dynamicPicture.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="dynamicPicture.Image" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="dynamicPicture.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="dynamicPicture.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>208, 10</value>
+  </data>
+  <data name="dynamicPicture.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="dynamicPicture.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>100, 50</value>
+  </data>
+  <data name="dynamicPicture.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>AutoSize</value>
+  </data>
+  <data name="dynamicPicture.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>2</value>
+  </data>
+  <data name="dynamicPicture.Text">
+    <value />
+  </data>
+  <data name="dynamicPicture.ToolTip">
+    <value />
+  </data>
+  <data name="dynamicPicture.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;dynamicPicture.Name">
+    <value>dynamicPicture</value>
+  </data>
+  <data name="&gt;&gt;dynamicPicture.Type">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dynamicPicture.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dynamicPicture.ZOrder">
+    <value>2</value>
+  </data>
+  <data name="initCOMTimeLabel.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="initCOMTimeLabel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="initCOMTimeLabel.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="initCOMTimeLabel.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="initCOMTimeLabel.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="initCOMTimeLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="initCOMTimeLabel.AutoSize" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="initCOMTimeLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="initCOMTimeLabel.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="initCOMTimeLabel.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="initCOMTimeLabel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="initCOMTimeLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="initCOMTimeLabel.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="initCOMTimeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="initCOMTimeLabel.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>12, 159</value>
+  </data>
+  <data name="initCOMTimeLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="initCOMTimeLabel.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>326, 23</value>
+  </data>
+  <data name="initCOMTimeLabel.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>3</value>
+  </data>
+  <data name="initCOMTimeLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>TopLeft</value>
+  </data>
+  <data name="initCOMTimeLabel.ToolTip">
+    <value />
+  </data>
+  <data name="initCOMTimeLabel.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;initCOMTimeLabel.Name">
+    <value>initCOMTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;initCOMTimeLabel.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;initCOMTimeLabel.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;initCOMTimeLabel.ZOrder">
+    <value>1</value>
+  </data>
+  <data name="initAssemblyTimeLabel.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="initAssemblyTimeLabel.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="initAssemblyTimeLabel.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="initAssemblyTimeLabel.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="initAssemblyTimeLabel.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="initAssemblyTimeLabel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Top, Left</value>
+  </data>
+  <data name="initAssemblyTimeLabel.AutoSize" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="initAssemblyTimeLabel.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>None</value>
+  </data>
+  <data name="initAssemblyTimeLabel.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="initAssemblyTimeLabel.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="initAssemblyTimeLabel.Image" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="initAssemblyTimeLabel.ImageAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="initAssemblyTimeLabel.ImageIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>-1</value>
+  </data>
+  <data name="initAssemblyTimeLabel.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>NoControl</value>
+  </data>
+  <data name="initAssemblyTimeLabel.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>12, 195</value>
+  </data>
+  <data name="initAssemblyTimeLabel.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="initAssemblyTimeLabel.Size" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>326, 23</value>
+  </data>
+  <data name="initAssemblyTimeLabel.TabIndex" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>4</value>
+  </data>
+  <data name="initAssemblyTimeLabel.Text">
+    <value>.NET component initialized at </value>
+  </data>
+  <data name="initAssemblyTimeLabel.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>TopLeft</value>
+  </data>
+  <data name="initAssemblyTimeLabel.ToolTip">
+    <value />
+  </data>
+  <data name="initAssemblyTimeLabel.Visible" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;initAssemblyTimeLabel.Name">
+    <value>initAssemblyTimeLabel</value>
+  </data>
+  <data name="&gt;&gt;initAssemblyTimeLabel.Type">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;initAssemblyTimeLabel.Parent">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;initAssemblyTimeLabel.ZOrder">
+    <value>0</value>
+  </data>
+  <data name="buttonToolTip.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="buttonToolTip.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </data>
+  <data name="buttonToolTip.Modifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.Locked" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.TrayLargeIcon" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.Localizable" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.GridSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>4, 4</value>
+  </data>
+  <data name="$this.Language" type="System.Globalization.CultureInfo, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>(Default)</value>
+  </data>
+  <data name="$this.DrawGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.TrayHeight" type="System.Int32, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>80</value>
+  </data>
+  <data name="$this.Name">
+    <value>Form1</value>
+  </data>
+  <data name="$this.SnapToGrid" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.DefaultModifiers" type="System.CodeDom.MemberAttributes, System, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Assembly</value>
+  </data>
+  <data name="$this.AccessibleDescription" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.AccessibleName" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.AutoScaleBaseSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>6, 15</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>False</value>
+  </data>
+  <data name="$this.AutoScrollMargin" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.AutoScrollMinSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.BackgroundImage" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>351, 269</value>
+  </data>
+  <data name="$this.Enabled" type="System.Boolean, mscorlib, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </data>
+  <data name="$this.Font" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.Icon" type="System.Resources.ResXNullRef, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value />
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.Location" type="System.Drawing.Point, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </data>
+  <data name="$this.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>Inherit</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>WindowsDefaultLocation</value>
+  </data>
+  <data name="$this.Text">
+    <value>WindowsDeploymentProject</value>
+  </data>
+  <data name="$this.ToolTip">
+    <value />
+  </data>
+  <data name="&gt;&gt;buttonToolTip.Name">
+    <value>buttonToolTip</value>
+  </data>
+  <data name="&gt;&gt;buttonToolTip.Type">
+    <value>System.Windows.Forms.ToolTip, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=1.0.5000.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

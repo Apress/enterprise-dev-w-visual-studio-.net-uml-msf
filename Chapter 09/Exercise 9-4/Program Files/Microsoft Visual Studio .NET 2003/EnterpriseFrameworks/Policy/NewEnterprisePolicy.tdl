@@ -1,0 +1,7 @@
+<TDL xmlns="http://www.microsoft.com/schema/EnterpriseTemplates/TDLSchema">
+   <DEFAULTSETTINGS>
+      <DEFAULTACTION>EXCLUDE</DEFAULTACTION>
+      <POLICYMODE>RESTRICTIVE</POLICYMODE>
+      <ORDER>INCLUDEEXCLUDE</ORDER>
+   </DEFAULTSETTINGS>
+</TDL>

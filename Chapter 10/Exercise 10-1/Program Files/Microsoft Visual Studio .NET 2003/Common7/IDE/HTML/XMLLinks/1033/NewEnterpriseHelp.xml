@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+   xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">
+   <LinkGroup ID="NewEnterpriseHelp" Title="New Enterprise Custom Help Topics" Priority="1">
+      <Glyph Expanded="3" Collapsed="4" />
+   </LinkGroup>
+</DynamicHelp>

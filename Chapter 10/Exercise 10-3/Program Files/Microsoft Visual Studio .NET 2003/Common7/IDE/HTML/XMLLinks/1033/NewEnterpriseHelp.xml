@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<DynamicHelp xmlns="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd" xmlns:xsi="http://www.w3.org/2000/10/XMLSchema-instance"
+   xsi:schemaLocation="http://msdn.microsoft.com/vsdata/xsd/vsdh.xsd">
+   <LinkGroup ID="NewEnterpriseHelp" Title="New Enterprise Custom Help Topics" Priority="1">
+      <Glyph Expanded="3" Collapsed="4" />
+   </LinkGroup>
+   <Context>
+      <Keywords>
+         <KItem Name="NewHelpTopicKeyword" />
+      </Keywords>
+      <Attributes>
+         <AItem Name="Product" Value="VB" />
+         <AItem Name="NewHelpTopicKeywordAttribute" Value="1" />
+      </Attributes>
+      <Links>
+         <LItem URL="file://C:/EDWVSNETUMLMSF/Chapter 10/NewEnterpriseHelp.htm" LinkGroup="NewEnterpriseHelp">
+New Enterprise Development Help
+</LItem>
+      </Links>
+   </Context>
+</DynamicHelp>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<EFPROJECT>
+    <GENERAL>
+        <BANNER>Microsoft Visual Studio Application Template File</BANNER>
+        <VERSION>1.00</VERSION>
+        <SUBPROJECTWIZARDS>
+            <WIZARD>
+                <FILE>..\Visual Basic Building Blocks\NewWebService.vsz</FILE>
+                <REQUIRESURL>1</REQUIRESURL>
+            </WIZARD>
+        </SUBPROJECTWIZARDS>  
+        <Views>
+            <ProjectExplorer>
+                <File>BusinessFacade\BusinessFacade.vbproj</File>
+            </ProjectExplorer>
+        </Views>
+        <References>
+            <Reference>
+                <FILE>BusinessFacade\BusinessFacade.vbproj</FILE>
+            </Reference>
+        </References>
+    </GENERAL>
+    <GLOBALS>
+        <GLOBALENTRY>
+            <NAME>TDLFILE</NAME>
+            <VALUE>NewEnterprisePolicy.tdl</VALUE>
+        </GLOBALENTRY>
+    </GLOBALS>
+</EFPROJECT>

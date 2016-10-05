@@ -1,0 +1,53 @@
+<VisualStudioProject>
+    <VisualBasic
+	OwnerKey = "{FE3BBBB6-72D5-11d2-9ACE-00C04F79A2A4}"
+	ProjectType = "Web"
+    >
+        <Build>
+            <Settings
+                OutputType = "Library"
+                StartupObject = ""
+	        >
+                <Config
+                    Name = "Debug"
+                    EnableASPXDebugging = "true"
+                    DebugSymbols = "true"
+                    DefineDebug = "true"
+                    DefineTrace = "true"
+                    IncrementalBuild = "true"
+                    OutputPath = "bin"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPXDebugging = "true"
+                    DebugSymbols = "false"
+                    DefineDebug = "false"
+                    DefineTrace = "true"
+                    IncrementalBuild = "false"
+                    Optimize = "true"
+                    OutputPath = "bin"
+                />
+            </Settings>
+            <References>
+                <Reference Name = "System" />
+                <Reference Name = "System.Data" />
+                <Reference Name = "System.Web" />
+                <Reference Name = "System.Web.Services" />
+                <Reference Name = "System.XML" />
+            </References>
+            <Imports>
+                <Import Namespace = "Microsoft.VisualBasic" />
+                <Import Namespace = "System" />
+                <Import Namespace = "System.Collections" />
+                <Import Namespace = "System.Data" />
+                <Import Namespace = "System.Diagnostics" />
+                <Import Namespace = "System.Web" />
+                <Import Namespace = "System.Web.Services" />
+            </Imports>
+        </Build>
+        <Files>
+            <Include>
+            </Include>
+        </Files>
+    </VisualBasic>
+</VisualStudioProject>

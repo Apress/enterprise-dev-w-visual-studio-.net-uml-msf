@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:s0="http://tempuri.org/WebDevelopmentProjectWS/WebDevelopmentProjectWebService" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/WebDevelopmentProjectWS/WebDevelopmentProjectWebService" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/WebDevelopmentProjectWS/WebDevelopmentProjectWebService">
+      <s:element name="GetInitTime">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetInitTimeResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetInitTimeResult" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </types>
+  <message name="GetInitTimeSoapIn">
+    <part name="parameters" element="s0:GetInitTime" />
+  </message>
+  <message name="GetInitTimeSoapOut">
+    <part name="parameters" element="s0:GetInitTimeResponse" />
+  </message>
+  <portType name="WebDevelopmentProjectWebServiceSoap">
+    <operation name="GetInitTime">
+      <input message="s0:GetInitTimeSoapIn" />
+      <output message="s0:GetInitTimeSoapOut" />
+    </operation>
+  </portType>
+  <binding name="WebDevelopmentProjectWebServiceSoap" type="s0:WebDevelopmentProjectWebServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <operation name="GetInitTime">
+      <soap:operation soapAction="http://tempuri.org/WebDevelopmentProjectWS/WebDevelopmentProjectWebService/GetInitTime" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="WebDevelopmentProjectWebService">
+    <port name="WebDevelopmentProjectWebServiceSoap" binding="s0:WebDevelopmentProjectWebServiceSoap">
+      <soap:address location="http://localhost/WebDevelopmentProjectWS/WebDevelopmentProjectWebService.asmx" />
+    </port>
+  </service>
+</definitions>
